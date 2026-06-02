@@ -40,3 +40,4 @@ publish/
 # OS
 .DS_Store
 Thumbs.db
+*:Zone.Identifier
