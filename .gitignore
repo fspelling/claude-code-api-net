@@ -1,0 +1,42 @@
+# Build output
+bin/
+obj/
+
+# SQLite database
+*.db
+*.db-shm
+*.db-wal
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+.claude/
+
+# .NET secrets
+**/appsettings.*.json
+!**/appsettings.json
+!**/appsettings.Development.json
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Publish output
+publish/
+**/Properties/launchSettings.json
+
+# OS
+.DS_Store
+Thumbs.db
